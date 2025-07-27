@@ -20,7 +20,7 @@ I started using `Obsidian` during my Master's, been using it for a while now.
 The structure of this blog was inspired by [VVoruganti](https://vineeth.io/).
 If you are someone who loves working with `nvim` you can check out his blogs.
 
-#### Structure
+## Structure
 There are a few different types of things I write and keep track of here
 
 - [[Navnit Kumar| Profile]] - My CV
