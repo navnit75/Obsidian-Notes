@@ -1,5 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/utl/path"
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,8 +10,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+        GitHub: "https://github.com/navnit75",
+        LinkedIn: "https://www.linkedin.com/in/kumarnavnit4175",
     },
   }),
 }
@@ -17,27 +19,39 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    Component.Breadcrumbs(),
+    //Component.ConditionalRender({
+      //component: Component.Breadcrumbs(),
+      //condition: (page) => page.fileData.slug !== "index",
+    //}),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
+    Component.TagList({ type: "strict" }),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
+    Component.Search(),
+    Component.Darkmode(),
+    // Component.Flex({
+      // components: [
+        //{
+          // Component: Component.Search(),
+          //  grow: true,
+        //},
+        // { Component: Component.Darkmode() },
+      //  { Component: Component.ReaderMode() },
+    //   ],
+    // }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Posts",
+        limit: 3,
+        filter: (f) =>
+            f.slug!.startsWith("posts/") && !f.frontmatter?.noindex && f.frontmatter?.title != "Posts",
+        linkToMore: "posts/" as SimpleSlug
+      })
+    ),
     Component.Explorer(),
   ],
   right: [
@@ -53,16 +67,19 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer(),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer()),
+    // Component.Flex({
+    //   components: [
+    //     {
+    //       Component: Component.Search(),
+    //       grow: true,
+    //     },
+    //     { Component: Component.Darkmode() },
+    //   ],
+    // }),
+    // Component.Explorer(),
   ],
   right: [],
 }
