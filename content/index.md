@@ -3,7 +3,9 @@ title: 🛸 Welcome
 ---
 
 
-Hey,  I'm Navnit also go by **rinzler4175** online. Currently I am SDE-1 at Amazon. I have worked with LG as Research Engineer for 2 years. This where I realized the power of good research while working with Softwares. 
+Hey,  I'm Navnit also go by **rinzler4175** online. 
+
+Currently I am an SDE-1 at Amazon. I have worked with LG as Research Engineer for 2 years. This where I realized the power of good research while working with Softwares. 
 I spend my time reading about **Embedded Systems**, **Data Science**, and **Competitive Programming**. Recently I got interest for **Backend And Distributed Systems**.
 
 I started using `Obsidian` during my Master's, been using it for a while now. 
