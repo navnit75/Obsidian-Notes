@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome To My Digital Vault
 ---
 
 This is a blank Quartz installation.
