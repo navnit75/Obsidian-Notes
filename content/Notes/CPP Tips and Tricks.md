@@ -118,3 +118,14 @@ void swap_four(int &a , int &b){
     b = (a+b) - (a = b);  
 }
 ```
+
+#### 8. Basic CPP logger
+```cpp
+#include <iostream>
+#include <chrono>
+
+#define LOG(msg) std::cout << __FILE__ << ":" << __LINE__ << " [" << \
+    std::chrono::system_clock::now().time_since_epoch().count() << "] " << \
+    msg << std::endl;
+```
+
