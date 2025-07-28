@@ -1,6 +1,6 @@
-#### 1. Traversing Map or Priority Queue
-$\rightarrow$ Specially when you have the class templates with multiple parameters i.e.`<int, char> or <pair<int,int>> or <char,int>`. 
-$\rightarrow$ You can traverse `priority_queue`using the following code - 
+## 1. Traversing Map or Priority Queue
+- Specially when you have the class templates with multiple parameters i.e.`<int, char> or <pair<int,int>> or <char,int>`. 
+- You can traverse `priority_queue`using the following code - 
 
 ```cpp
 unordered_map<int,char> umap; 
@@ -17,8 +17,8 @@ maxHeap.push({95,'a'});
 auto [frequency, character] = maxHeap.top(); maxHeap.pop(); 
 ```
 
-#### 2. Returning vector from functions, when you have less values 
-$\rightarrow$ You can just use `{a,b}` to return the values as vector
+## 2. Returning vector from functions, when you have less values 
+- You can just use `{a,b}` to return the values as vector
 
 ```cpp
 vector<int> someFunction(int a,int b){
@@ -26,8 +26,8 @@ vector<int> someFunction(int a,int b){
 }
 ```
 
-#### 3. Iterating through an `unordered_map`
-$\rightarrow$ Don't expect `unordered_map` to follow $insertion$ order. 
+## 3. Iterating through an `unordered_map`
+- Don't expect `unordered_map` to follow $insertion$ order. 
 
 ```cpp
 for(auto x : umap){
@@ -39,7 +39,7 @@ for(auto x : umap){
 }
 ```
 
-#### 4. Using `abs`
+## 4. Using `abs`
 ```cpp
 #include<cstdlib>
 ..
@@ -49,14 +49,14 @@ int main(){
 }
 // Output : 5
 ```
-#### 5. Using Comparator for `sort`
+## 5. Using Comparator for `sort`
 - Sorting a 2D vector *using* first ***element*** of the vector
 - We need to return , the order we **wish** to see in our $resultant\ array$. 
 - So `return v1[0] < v2[0]`. ****
 
 ```cpp
 /* Comparator */
-bool comparator(vector<int> v1, vector<int> &v2) {
+bool comparator(vector<int> &v1, vector<int> &v2) {
 	return v1[0] < v2[1];
 }
 
@@ -86,7 +86,6 @@ int main(){
 sort(arr.begin(),arr.end(),[](vector<int> a, vector<int> b){return a[0] < b[0];}); 
 ```
 
-- This is reduced version of the above code. 
 #### 7. Swapping using two variables 
 
 ```cpp
