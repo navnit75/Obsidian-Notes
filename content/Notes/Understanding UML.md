@@ -14,7 +14,7 @@
 visibility name: type [multiplicity] = defaultValue
 ```
 
-![Uml Attributes Picture](.../assets/uml-attributes.png)
+![Uml Attributes Picture](../assets/uml-attributes.png)
 
 ### 3. Methods
 ```
