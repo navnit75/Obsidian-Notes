@@ -27,7 +27,7 @@ But if you do want to execute your code using `clang++` then you can use followi
 clang++ -std=c++17 mul_table.cpp
 ```
 
-> ![question] Why was all this necessary ? 
+> [!question] Why was all this necessary ? 
 > - Because of the fact that `clang` doesn't support `#include<bits/stdc++.h>` 
 > - Which was annoying for me...
 > - Hope this helps !!
