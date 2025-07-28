@@ -13,8 +13,8 @@ I started using `Obsidian` during my Master's, been using it for a while now.
 > This place would be placeholder for the ideas, I come across. I will try to make it simple using the `keep it simple` strategy.
 
 >[!note] What do you mean by `keep it simple` ?
-> - Basically understanding concepts in a way, by which one can retain it.
-> - This would be a represents how I store things in my brain in form of notes or blogs.
+> - Basically understanding concepts in a way,  by which one can retain it.
+> - Moreover trying to deep dive into stuff, which are simple yet are annoyance.  
 
 >[!warning] You might find some repeated notes and stuff, feel free to skip them.
 
