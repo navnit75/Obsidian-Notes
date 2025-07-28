@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "navnit75.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian","assets"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -84,9 +84,7 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
       }),
-      Plugin.Assets({
-        ignorePatterns: ["assets/**"]
-      }),
+      Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
