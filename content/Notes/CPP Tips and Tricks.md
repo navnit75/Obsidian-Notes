@@ -1,3 +1,10 @@
+---
+title: CPP Tips and Tricks
+description: Various simple code segments I forget while coding in CPP
+tags:
+  - "#cpp"
+---
+
 ## 1. Traversing Map or Priority Queue
 - Specially when you have the class templates with multiple parameters i.e.`<int, char> or <pair<int,int>> or <char,int>`. 
 - You can traverse `priority_queue`using the following code - 
