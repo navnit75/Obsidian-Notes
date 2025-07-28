@@ -10,12 +10,13 @@ I spend my time reading about **Embedded Systems**, **Data Science**, and **Comp
 
 I started using `Obsidian` during my Master's, been using it for a while now. 
 
-> This place would be placeholder for the ideas, I come through. I will try to make it simple using the `keep it simple` strategy.
+> This place would be placeholder for the ideas, I come across. I will try to make it simple using the `keep it simple` strategy.
 
 >[!note] What do you mean by `keep it simple` ?
-> - Basically understanding concepts in a way, by which one can retain the `stuff`.
-> - This here represents my journey in form of notes or blogs.
-> - You might find some repeated notes and stuff, feel free to skip them.
+> - Basically understanding concepts in a way, by which one can retain it.
+> - This would be a represents how I store things in my brain in form of notes or blogs.
+
+>[!warning] You might find some repeated notes and stuff, feel free to skip them.
 
 The structure of this blog was inspired by [VVoruganti](https://vineeth.io/).
 If you are someone who loves working with `nvim` you can check out his blogs.
