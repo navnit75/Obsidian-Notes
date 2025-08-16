@@ -26,4 +26,4 @@ There are a few different types of things I write and keep track of here
 
 - [[Navnit Kumar| Profile]] - My CV
 - [[posts | Posts]] - Most recent notes.
-- [[notes | Notes]] - Random ideas I keep tinkering upon, or are kept here for my reference.
+- [[Notes | Notes]] - Random ideas I keep tinkering upon, or are kept here for my reference.
