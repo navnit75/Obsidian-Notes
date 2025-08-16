@@ -1,4 +1,4 @@
-**SDE - 1** @ Amzon| kumar.navnit4175@gmail.com | [LinkedIn](https://www.linkedin.com/in/kumarnavnit4175) | [GitHub](https://www.github.com/navnit75)
+**SDE - 1** @ Amazon| kumar.navnit4175@gmail.com | [LinkedIn](https://www.linkedin.com/in/kumarnavnit4175) | [GitHub](https://www.github.com/navnit75)
 
 ---
 # Experience
